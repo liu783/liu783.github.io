@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>MongoDB聚合查询</title>
+      <link href="p/2018/09/16/135644/"/>
+      <url>p/2018/09/16/135644/</url>
+      
+        <content type="html"><![CDATA[<h2 id="MongoDB聚合查询"><a href="#MongoDB聚合查询" class="headerlink" title="MongoDB聚合查询"></a>MongoDB聚合查询</h2><h3 id="一、Aggregate"><a href="#一、Aggregate" class="headerlink" title="一、Aggregate()"></a>一、Aggregate()</h3><p>语法格式</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ db.collection.aggregate(pipeline,options)</span><br></pre></td></tr></table></figure><p>pipeline：array类型,一些列的过程<br>options：可选参数,文档<br>聚合操作</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">// where _id = 1;</span><br><span class="line">db.customerinfo.aggregate()</span><br><span class="line">.match(&#123;&quot;_id&quot;:1&#125;)</span><br><span class="line">.project(&#123;&#125;)</span><br><span class="line">.sort(&#123;_id:-1&#125;)</span><br><span class="line">.limit(100)</span><br><span class="line">// <span class="keyword">select</span> * <span class="keyword">from</span> customerinfo</span><br><span class="line">db.customerinfo.aggregate()</span><br><span class="line">// <span class="keyword">select</span> * <span class="keyword">from</span> customerinfo <span class="keyword">where</span> _id=<span class="number">1</span></span><br><span class="line">db.customerinfo.aggregate([</span><br><span class="line">&#123;$<span class="keyword">match</span>:&#123;_id:<span class="number">1</span>&#125;&#125;</span><br><span class="line">])</span><br><span class="line">// <span class="keyword">select</span> <span class="keyword">name</span>,age <span class="keyword">from</span> customerinfo <span class="keyword">where</span> _id=<span class="number">1</span></span><br><span class="line">db.customerinfo.aggregate([</span><br><span class="line">&#123;$<span class="keyword">match</span>:&#123;<span class="keyword">name</span>:/a/&#125;&#125;,</span><br><span class="line">// <span class="keyword">where</span> <span class="keyword">name</span> <span class="keyword">like</span> <span class="string">&#x27;%a%&#x27;</span></span><br><span class="line">&#123;$<span class="keyword">project</span>: &#123;<span class="keyword">name</span>:<span class="number">1</span>,age:<span class="number">1</span>&#125;&#125;,</span><br><span class="line">// <span class="keyword">select</span> <span class="keyword">name</span>,age</span><br><span class="line">&#123;$<span class="keyword">group</span>: &#123; _id: <span class="string">&quot;null&quot;</span>,<span class="keyword">num</span>:&#123;$<span class="keyword">sum</span>:<span class="number">1</span>&#125;&#125;&#125;</span><br><span class="line">])</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MongoDB </tag>
+            
+            <tag> Sql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何更换Hexo的主题</title>
+      <link href="p/2018/09/16/123121/"/>
+      <url>p/2018/09/16/123121/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Hexo切换主题"><a href="#Hexo切换主题" class="headerlink" title="Hexo切换主题"></a>Hexo切换主题</h2><h3 id="1-Git下载安装想要主题"><a href="#1-Git下载安装想要主题" class="headerlink" title="1.Git下载安装想要主题"></a>1.Git下载安装想要主题</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>下载后，将压缩包解压到自己的博客根目录themes/文件夹下</p><p>修改_config.yml文件，将theme的值写成主题名字，例：theme: newtheme</p><h3 id="2-部署主题"><a href="#2-部署主题" class="headerlink" title="2.部署主题"></a>2.部署主题</h3><p>本地预览</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><p>打开<a href="http://localhost:4000/">http://localhost:4000/</a>预览</p><p>部署博客</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo generate</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p><a href="https://github.com/liu783/">GitHub地址</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网站技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GitHub </tag>
+            
+            <tag> Html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
