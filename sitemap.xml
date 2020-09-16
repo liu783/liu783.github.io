@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.liu783.cn/p/2018/09/16/135644/</loc>
+    
+    <lastmod>2020-09-16</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.liu783.cn/p/2018/09/16/123121/</loc>
     
     <lastmod>2020-09-16</lastmod>
@@ -32,6 +39,20 @@
 
   
   <url>
+    <loc>http://blog.liu783.cn/tags/MongoDB/</loc>
+    <lastmod>2020-09-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.liu783.cn/tags/Sql/</loc>
+    <lastmod>2020-09-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.liu783.cn/tags/GitHub/</loc>
     <lastmod>2020-09-16</lastmod>
     <changefreq>daily</changefreq>
@@ -46,6 +67,13 @@
   </url>
   
 
+  
+  <url>
+    <loc>http://blog.liu783.cn/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <lastmod>2020-09-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
   <url>
     <loc>http://blog.liu783.cn/categories/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/</loc>
