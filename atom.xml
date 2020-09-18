@@ -6,7 +6,7 @@
   <link href="http://blog.liu783.cn/atom.xml" rel="self"/>
   
   <link href="http://blog.liu783.cn/"/>
-  <updated>2020-09-16T13:05:16.247Z</updated>
+  <updated>2020-09-17T13:51:37.249Z</updated>
   <id>http://blog.liu783.cn/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何更换Hexo的主题2</title>
+    <link href="http://blog.liu783.cn/p/2018/09/16/122233/"/>
+    <id>http://blog.liu783.cn/p/2018/09/16/122233/</id>
+    <published>2018-09-16T04:12:00.000Z</published>
+    <updated>2020-09-17T13:51:37.249Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Hexo切换主题"><a href="#Hexo切换主题" class="headerlink" title="Hexo切换主题"></a>Hexo切换主题</h2><h3 id="1-Git下载安装想要主题"><a href="#1-Git下载安装想要主题" class="headerlink" title="1.Git下载安装想要主题"></a>1.Git下载安装想要主题</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>下载后，将压缩包解压到自己的博客根目录themes/文件夹下</p><p>修改_config.yml文件，将theme的值写成主题名字，例：theme: newtheme</p><h3 id="2-部署主题"><a href="#2-部署主题" class="headerlink" title="2.部署主题"></a>2.部署主题</h3><p>本地预览</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><p>打开<a href="http://localhost:4000/">http://localhost:4000/</a>预览</p><p>部署博客</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo generate</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p><a href="https://github.com/liu783/">GitHub地址</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Hexo切换主题&quot;&gt;&lt;a href=&quot;#Hexo切换主题&quot; class=&quot;headerlink&quot; title=&quot;Hexo切换主题&quot;&gt;&lt;/a&gt;Hexo切换主题&lt;/h2&gt;&lt;h3 id=&quot;1-Git下载安装想要主题&quot;&gt;&lt;a href=&quot;#1-Git下载安装想要主题&quot; c</summary>
+      
+    
+    
+    
+    <category term="网站技术" scheme="http://blog.liu783.cn/categories/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="GitHub" scheme="http://blog.liu783.cn/tags/GitHub/"/>
+    
+    <category term="Html" scheme="http://blog.liu783.cn/tags/Html/"/>
+    
+  </entry>
   
   <entry>
     <title>MongoDB聚合查询</title>
