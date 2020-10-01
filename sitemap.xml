@@ -16,7 +16,14 @@
   </url>
   
   <url>
-    <loc>http://blog.liu783.cn/p/2018/12/17/18121721/</loc>
+    <loc>http://blog.liu783.cn/p/2018/11/18/18111821/</loc>
+    
+    <lastmod>2020-10-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.liu783.cn/p/2018/11/17/18111720/</loc>
     
     <lastmod>2020-10-01</lastmod>
     
@@ -38,6 +45,13 @@
   
   <url>
     <loc>http://blog.liu783.cn/p/2019/11/12/19111211/</loc>
+    
+    <lastmod>2020-10-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.liu783.cn/p/2018/12/17/18121721/</loc>
     
     <lastmod>2020-10-01</lastmod>
     
@@ -67,21 +81,7 @@
 
   
   <url>
-    <loc>http://blog.liu783.cn/tags/calc/</loc>
-    <lastmod>2020-10-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.liu783.cn/tags/list/</loc>
-    <lastmod>2020-10-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.liu783.cn/tags/array/</loc>
+    <loc>http://blog.liu783.cn/tags/java/</loc>
     <lastmod>2020-10-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
