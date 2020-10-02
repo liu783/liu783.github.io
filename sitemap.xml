@@ -2,77 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://liu783.github.io/about/index.html</loc>
+    <loc>http://liu783.github.io/about/index.html</loc>
     
     <lastmod>2020-10-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://liu783.github.io/p/2018/11/15/18111519/</loc>
+    <loc>http://liu783.github.io/p/2018/11/15/18111519/</loc>
     
     <lastmod>2020-10-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://liu783.github.io/p/2018/12/12/18121220/</loc>
+    <loc>http://liu783.github.io/p/2018/12/12/18121220/</loc>
     
     <lastmod>2020-10-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://liu783.github.io/p/2018/11/18/18111821/</loc>
+    <loc>http://liu783.github.io/p/2018/11/18/18111821/</loc>
     
     <lastmod>2020-10-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://liu783.github.io/p/2018/11/17/18111720/</loc>
+    <loc>http://liu783.github.io/p/2018/11/17/18111720/</loc>
     
     <lastmod>2020-10-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://liu783.github.io/p/2018/10/14/18101420/</loc>
+    <loc>http://liu783.github.io/p/2018/10/14/18101420/</loc>
     
     <lastmod>2020-10-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://liu783.github.io/p/2018/09/16/18091612/</loc>
+    <loc>http://liu783.github.io/p/2018/09/16/18091612/</loc>
     
     <lastmod>2020-10-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://liu783.github.io/p/2019/11/12/19111211/</loc>
+    <loc>http://liu783.github.io/p/2019/11/12/19111211/</loc>
     
     <lastmod>2020-10-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://liu783.github.io/p/2018/12/17/18121721/</loc>
+    <loc>http://liu783.github.io/p/2018/12/17/18121721/</loc>
     
     <lastmod>2020-10-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://liu783.github.io/tags/index.html</loc>
+    <loc>http://liu783.github.io/tags/index.html</loc>
     
     <lastmod>2020-09-16</lastmod>
     
   </url>
   
   <url>
-    <loc>https://liu783.github.io/categories/index.html</loc>
+    <loc>http://liu783.github.io/categories/index.html</loc>
     
     <lastmod>2020-09-16</lastmod>
     
@@ -80,7 +80,7 @@
   
 
   <url>
-    <loc>https://liu783.github.io/</loc>
+    <loc>http://liu783.github.io/</loc>
     <lastmod>2020-10-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -88,35 +88,35 @@
 
   
   <url>
-    <loc>https://liu783.github.io/tags/java/</loc>
+    <loc>http://liu783.github.io/tags/java/</loc>
     <lastmod>2020-10-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://liu783.github.io/tags/MongoDB/</loc>
+    <loc>http://liu783.github.io/tags/MongoDB/</loc>
     <lastmod>2020-10-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://liu783.github.io/tags/Sql/</loc>
+    <loc>http://liu783.github.io/tags/Sql/</loc>
     <lastmod>2020-10-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://liu783.github.io/tags/GitHub/</loc>
+    <loc>http://liu783.github.io/tags/GitHub/</loc>
     <lastmod>2020-10-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://liu783.github.io/tags/Html/</loc>
+    <loc>http://liu783.github.io/tags/Html/</loc>
     <lastmod>2020-10-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -125,21 +125,21 @@
 
   
   <url>
-    <loc>https://liu783.github.io/categories/JavaSE/</loc>
+    <loc>http://liu783.github.io/categories/JavaSE/</loc>
     <lastmod>2020-10-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://liu783.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>http://liu783.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2020-10-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://liu783.github.io/categories/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/</loc>
+    <loc>http://liu783.github.io/categories/%E7%BD%91%E7%AB%99%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2020-10-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
